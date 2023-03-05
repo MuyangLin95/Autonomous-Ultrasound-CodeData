@@ -1,10 +1,14 @@
 # Deep learning model and logistic model for ultrasound image classification
 
-This work is based off the original Minimal-Entropy Correlation Alignment model. See the Reference
+This work is based off the original classificaiton models (VGG11, VGG13, ResNet, MobileNet) and Minimal-Entropy Correlation Alignment model. See the Reference
 section for further details.
+The logistic model is developed in MATLAB 2020b.
+
+The image dataset can be accessed via google cloud link: xxxxxxxxxxxxxxxxxxxxxxxxx.
 
 ## Reference
-This is based off of the original repository at
+The classificaiton models (VGG11, VGG13, ResNet, MobileNet) can be refered to pytorch.
+The Minimal-Entropy Correlation Alignment model based off of the original repository at
 [minimal-entropy-correlation-alignment](https://github.com/pmorerio/minimal-entropy-correlation-alignment).
 
 **"Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation"**  
