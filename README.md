@@ -1,4 +1,4 @@
-# Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation
+# Deep learning model and logistic model for ultrasound image classification
 
 This work is based off the original Minimal-Entropy Correlation Alignment model. See the Reference
 section for further details.
