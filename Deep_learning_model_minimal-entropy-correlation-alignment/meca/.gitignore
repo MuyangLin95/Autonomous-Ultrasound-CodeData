@@ -1,0 +1,7 @@
+logs/
+model*/
+dataset/
+tds/
+*.txt
+*.pyc
+*.pkl

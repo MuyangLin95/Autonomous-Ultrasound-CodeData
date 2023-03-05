@@ -1,0 +1,1 @@
+The matlab scripts "logistic_model_for_ultrasound_image_classification.m" and "logistic_model_step_by_step_processing.mlx" needs to run in the same directory with the image folders.
