@@ -2,6 +2,7 @@
 
 This work is based off the original classificaiton models (VGG11, VGG13, ResNet, MobileNet) and Minimal-Entropy Correlation Alignment model. See the Reference
 section for further details.
+
 The logistic model is developed in MATLAB 2020b.
 
 The image dataset can be accessed via google cloud link: xxxxxxxxxxxxxxxxxxxxxxxxx.
