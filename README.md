@@ -5,7 +5,7 @@ section for further details.
 
 The logistic model is developed in MATLAB 2020b.
 
-The image dataset can be accessed via google cloud link: xxxxxxxxxxxxxxxxxxxxxxxxx.
+The image datasets can be accessed via google cloud (https://drive.google.com/drive/folders/1vcOBjbB2TfEuSezzj9HImkliZ04tyQng?usp=share_link)
 
 ## Reference
 The classificaiton models (VGG11, VGG13, ResNet, MobileNet) can be refered to pytorch.
