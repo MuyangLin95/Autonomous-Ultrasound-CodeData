@@ -11,7 +11,7 @@ import utils
 from sklearn.manifold import TSNE
 
 class Solver(object):
-    def __init__(self, model, batch_size=8, train_iter=3600,
+    def __init__(self, model, batch_size=8, train_iter=200,
                  source_dir='source', target_dir='target', log_dir='logs', res_dir='result',
                  model_save_path='model', sid=1, tid=2):
         self.model = model
