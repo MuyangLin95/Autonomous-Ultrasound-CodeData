@@ -16,18 +16,22 @@ class logDcoral(object):
         if images.get_shape()[3] == 3:
             images = tf.image.rgb_to_grayscale(images)
 
-        with tf.compat.v1.variable_scope('encoder', reuse=reuse):
-            with slim.arg_scope([slim.fully_connected], activation_fn=tf.nn.relu):
-                with slim.arg_scope([slim.conv2d], activation_fn=tf.nn.relu, padding='VALID'):
-                    net = slim.conv2d(images, 64, 5, scope='conv1')
-                    net = slim.max_pool2d(net, 2, stride=2, scope='pool1')
-                    net = slim.conv2d(net, 128, 5, scope='conv2')
-                    net = slim.max_pool2d(net, 2, stride=2, scope='pool2')
-                    net = tf.compat.v1.layers.flatten(net)
-                    net = slim.fully_connected(net, 1024, activation_fn=tf.nn.relu, scope='fc3')
-                    net = slim.dropout(net, 0.5, is_training=is_training)
-                    net = slim.fully_connected(net, self.hidden_repr_size, activation_fn=tf.tanh, scope='fc4')
-                    return net
+		with tf.compat.v1.variable_scope('encoder',reuse=reuse):
+			with slim.arg_scope([slim.fully_connected], activation_fn=tf.nn.relu):
+				with slim.arg_scope([slim.conv2d], activation_fn=tf.nn.relu, padding='VALID'):
+					net = slim.conv2d(images, 64, 5, scope='conv1', activation_fn=tf.nn.relu)
+					net = slim.max_pool2d(net, 2, stride=2, scope='pool1')
+					net = slim.conv2d(net, 256, 5, scope='conv2', activation_fn=tf.nn.relu)
+					net = slim.max_pool2d(net, 2, stride=2, scope='pool2')
+					net = slim.conv2d(net, 256, 5, scope='conv3', activation_fn=tf.nn.relu)
+					net = slim.conv2d(net, 256, 5, scope='conv4', activation_fn=tf.nn.relu)
+					net = tf.compat.v1.layers.flatten(net)
+					net = slim.fully_connected(net, 1024, activation_fn=tf.nn.relu, scope='fc3')
+					net = slim.dropout(net, 0.25, is_training=is_training)
+					net = slim.fully_connected(net, self.hidden_repr_size, activation_fn=tf.tanh,scope='fc4')
+					# dropout here or not?
+					#~ net = slim.dropout(net, 0.5, is_training=is_training)
+					return net
 
     def logits(self, inputs, reuse=False):
         with tf.compat.v1.variable_scope('logits', reuse=reuse):
