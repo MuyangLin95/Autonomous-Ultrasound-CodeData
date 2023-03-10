@@ -19,7 +19,7 @@ def main(argv=None):
         model_save_path = FLAGS.model_save_path + '/' + FLAGS.method + '/alpha_' + FLAGS.alpha
         log_dir = 'logs/' + FLAGS.method + '/alpha_' + FLAGS.alpha
         res_dir = 'result/' + FLAGS.method + '/alpha_' + FLAGS.alpha
-        model = logDcoral(mode=FLAGS.mode, method=FLAGS.method, hidden_size=32, learning_rate=0.00005,
+        model = logDcoral(mode=FLAGS.mode, method=FLAGS.method, hidden_size=16, learning_rate=0.0005,
                           alpha=float(FLAGS.alpha))
         solver = Solver(model, batch_size=128, model_save_path=model_save_path, log_dir=log_dir, res_dir=res_dir,
                         sid=int(FLAGS.sid), tid=int(FLAGS.tid))
