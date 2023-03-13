@@ -1,6 +1,6 @@
 # Deep learning model and logistic model for ultrasound image classification
 
-The deep learning models used in thie porject include classificaiton models (VGG11, VGG13, ResNet, MobileNet) and Minimal-Entropy Correlation Alignment (MECA) model (see the Reference section for further details).
+The deep learning models used in thie porject include classificaiton models (VGG11, VGG13, ResNet, MobileNet) and Minimal-Entropy Correlation Alignment (MECA) model (see the Reference section for further details). 
 
 The image data sets for classification models can be accessed via google drive (https://drive.google.com/drive/folders/1vS98z0EI0sOXkD09IN8h6FCNRmzpXmuG?usp=share_link).
 
@@ -13,7 +13,7 @@ The image datasets for logistic model can be accessed via google drive (https://
 
 
 ## Reference
-The classificaiton models (VGG11, VGG13, ResNet, MobileNet) can be refered to pytorch.
+The classificaiton models (VGG11, VGG13, ResNet, MobileNet) can be refered to pytorch library.
 The Minimal-Entropy Correlation Alignment model based off of the original repository at
 [minimal-entropy-correlation-alignment](https://github.com/pmorerio/minimal-entropy-correlation-alignment).
 
