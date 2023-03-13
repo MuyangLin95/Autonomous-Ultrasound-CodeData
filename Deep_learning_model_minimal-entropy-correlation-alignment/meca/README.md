@@ -10,7 +10,7 @@ Currently there are four methods: Baseline, D-Coral, Log-D-Coral, and Entropy.
 * <b>--sid:</b> The source ID.
 * <b>--tid:</b> The target ID.
 ```
-python3 train.py --method log-d-coral --alpha 100 --sid 3 --tid 11
+python3 train.py --method log-d-coral --alpha 9.5 --sid 3 --tid 11
 ```
 
 * The script ``download.sh`` collects both MNIST and SVHN. Default downloaing directory is ``./``.
@@ -64,7 +64,7 @@ Domain adaptation:
 | 2        | 0.988 | /     | 0.976 |
 | 3        | 0.901 | 0.901 | /     |
 
-Hyper parameters (hidden size/lambda,learning rate = 0.0005):
+Hyper parameters (hidden size/alpha,learning rate = 0.0005):
 
 | source-> | 1      | 2      | 3      |
 |----------|--------|--------|--------|
