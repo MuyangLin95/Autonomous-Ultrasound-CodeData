@@ -5,7 +5,7 @@ The deep learning models used in thie porject include classificaiton models (VGG
 The image data sets for deep learning models can be accessed via google drive (https://drive.google.com/drive/folders/1vcOBjbB2TfEuSezzj9HImkliZ04tyQng?usp=share_link).
 
 
-The logistic model is developed in MATLAB 2020b.
+The logistic model is developed in MATLAB 2020b. The scripts "logistic_model_for_ultrasound_image_classification.m" and "logistic_model_step_by_step_processing.mlx" needs to run in the same directory with the image folders.
 
 The image datasets for logistic model can be accessed via google drive (https://drive.google.com/drive/folders/1vcOBjbB2TfEuSezzj9HImkliZ04tyQng?usp=share_link).
 
