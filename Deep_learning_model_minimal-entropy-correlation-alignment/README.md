@@ -2,7 +2,6 @@
 
 This work is based off the original Minimal-Entropy Correlation Alignment model for domain adaptation. See the Reference
 section for further details.
-The basic classificaiton models (VGG11, VGG13, ResNet, MobileNet) were directly called from pytorch libraries
 
 ## Reference
 This is based off of the original repository at
