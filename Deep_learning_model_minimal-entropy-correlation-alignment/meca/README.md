@@ -52,8 +52,27 @@ The command
  ```
 allows you to visualize all the logs in the ``log`` folder.
 
-#### Visualizations
+#### Results on sample data
+Domain adaptation:
 
-Below are the t-SNE visualization produced by the command above, showing the feature space learned by geodesic aligment. *Left*: blue and red dots indicate SVHN (source) and MNIST (target) features,respectively. *Right*: different colors indicate the ten different classes
+| source-> | 1     | 2     | 3     |
+|----------|-------|-------|-------|
+| 1        | /     | 0.968 | 0.978 |
+| 2        | 0.988 | /     | 0.976 |
+| 3        | 0.901 | 0.901 | /     |
 
-![tsne](./tsne.png)
+Hyper parameters (learning rate = 0.0005):
+
+| source-> | 1      | 2      | 3      |
+|----------|--------|--------|--------|
+| 1        | /      | 16/9.5 | 16/9.5 |
+| 2        | 16/9.5 | /      | 16/9.5 |
+| 3        | 64/9.5 | 4/9.75 | /      |
+
+Without domain adaptation:
+| source-> | 1     | 2     | 3     |
+|----------|-------|-------|-------|
+| 1        | /     | 0.903 | 0.704 |
+| 2        | 0.966 | /     | 0.604 |
+| 3        | 0.558 | 0.636 | /     |
+
