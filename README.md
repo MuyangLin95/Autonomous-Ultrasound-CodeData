@@ -42,7 +42,7 @@ sudo pip3 install -r requirements.txt
 The logistic model scripts needs to run with MATLAB 2020b. Scripts "logistic_model_for_ultrasound_image_classification.m" and "logistic_model_step_by_step_processing.mlx" needs to run in the same directory with the image folders.
 
 ## Dataset access
-The image data sets for classification models can be accessed via google drive (https://drive.google.com/drive/folders/1vS98z0EI0sOXkD09IN8h6FCNRmzpXmuG?usp=share_link).
+The image data sets for classification models can be accessed via google drive (https://drive.google.com/drive/folders/1fAZPEFKwvl3VbpdwvY9UjHFVOXOMi4dR?usp=share_link).
 
 The image data sets for MECA model can be accessed via google drive (https://drive.google.com/drive/folders/1DoazVlxnZeUji9mSJ90ihH9jGDrQVtJH?usp=share_link).
 
