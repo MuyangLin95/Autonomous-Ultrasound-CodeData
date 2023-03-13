@@ -1,3 +1,6 @@
+# Data Preparation 
+Please put the folder ```tds``` and ```ds``` under the meca directory. Please do not change the name of the folders.
+
 # Code
 To conduct a full training simulation, use ``train.py``. This script calls the main script that establishes the network
 and simulation through four parameters:
