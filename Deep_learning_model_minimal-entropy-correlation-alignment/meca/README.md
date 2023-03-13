@@ -61,7 +61,7 @@ Domain adaptation:
 | 2        | 0.988 | /     | 0.976 |
 | 3        | 0.901 | 0.901 | /     |
 
-Hyper parameters (learning rate = 0.0005):
+Hyper parameters (hidden size/lambda,learning rate = 0.0005):
 
 | source-> | 1      | 2      | 3      |
 |----------|--------|--------|--------|
