@@ -1,13 +1,16 @@
 # Deep learning model and logistic model for ultrasound image classification
 
-The deep learning models used in thie porject include classificaiton models (VGG11, VGG13, ResNet, MobileNet) and Minimal-Entropy Correlation Alignment model (see the Reference section for further details).
+The deep learning models used in thie porject include classificaiton models (VGG11, VGG13, ResNet, MobileNet) and Minimal-Entropy Correlation Alignment (MECA) model (see the Reference section for further details).
 
-The image data sets for deep learning models can be accessed via google drive (https://drive.google.com/drive/folders/1vcOBjbB2TfEuSezzj9HImkliZ04tyQng?usp=share_link).
+The image data sets for classification models can be accessed via google drive (https://drive.google.com/drive/folders/1vS98z0EI0sOXkD09IN8h6FCNRmzpXmuG?usp=share_link).
+
+The image data sets for MECA model can be accessed via google drive (https://drive.google.com/drive/folders/1DoazVlxnZeUji9mSJ90ihH9jGDrQVtJH?usp=share_link).
 
 
 The logistic model is developed in MATLAB 2020b. The scripts "logistic_model_for_ultrasound_image_classification.m" and "logistic_model_step_by_step_processing.mlx" needs to run in the same directory with the image folders.
 
-The image datasets for logistic model can be accessed via google drive (https://drive.google.com/drive/folders/1vcOBjbB2TfEuSezzj9HImkliZ04tyQng?usp=share_link).
+The image datasets for logistic model can be accessed via google drive (https://drive.google.com/drive/folders/1vdOLWwQfscgyGoMbCjSRBj5tTOdjUCJ4?usp=share_link).
+
 
 ## Reference
 The classificaiton models (VGG11, VGG13, ResNet, MobileNet) can be refered to pytorch.
